@@ -25,10 +25,11 @@ if 'Pico' in board_type:
     print("Supported.")
     
 elif 'ESP32-S2' in board_type:
-    scl, sda = board.IO41, board.IO40 # With the ESP32-S2 you can use any IO pins as I2C pins
+    sda, scl = board.IO40, board.IO41 # With the ESP32-S2 you can use any IO pins as I2C pins
     print("Supported.")
     
 else:
+    sda, scl = board.SDA, board.SCL
     print("This board is not directly supported. Change the pin definitions above.")
     
 i2c = busio.I2C(scl, sda)
