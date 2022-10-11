@@ -12,7 +12,7 @@ from ball import Ball
 SCREEN_WIDTH = 128
 SCREEN_HEIGHT = 64
 
-FPS = 50
+FPS = 100
 FPS_DELAY = 1 / FPS
 
 displayio.release_displays()
@@ -58,7 +58,6 @@ splash.append(ball.circle)
 
 last_update_time = 0
 now = 0
-loops_since_update = 0
 
 while True:
     # update time variable
@@ -71,8 +70,4 @@ while True:
         ball.update(left_paddle, right_paddle )
         left_paddle.update(ball)
         right_paddle.update(ball)
-        
         last_update_time = now
-        loops_since_update = 0
-    else:
-        loops_since_update += 1
