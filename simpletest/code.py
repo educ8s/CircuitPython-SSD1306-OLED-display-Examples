@@ -42,7 +42,7 @@ splash.append(bg_sprite)
 inner_bitmap = displayio.Bitmap(118, 54, 1)
 inner_palette = displayio.Palette(1)
 inner_palette[0] = 0x000000  # Black
-inner_sprite = displayio.TileGrid(inner_bitmap, pixel_shader=inner_palette, x=5, y=4)
+inner_sprite = displayio.TileGrid(inner_bitmap, pixel_shader=inner_palette, x=5, y=5)
 splash.append(inner_sprite)
 
 # Draw a label
