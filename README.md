@@ -5,7 +5,16 @@
   <img src="preview.jpg" alt="Running Sketch" width="640">
 </p>
 
-Watch the video here: https://youtu.be/c64WG4iJuEo
+<p align="center">
+🎥 <a href="https://youtu.be/c64WG4iJuEo">Video Tutorial on YouTube</a>
+</p>
+
+<br>
+<br>
+<p align="center">
+| 📺 <a href="https://www.youtube.com/educ8s">YouTube</a>
+| 🌍 <a href="http://www.educ8s.tv">Website</a> | <br>
+</p>
 
 # Parts Needed
 
