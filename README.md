@@ -9,9 +9,9 @@ Watch the video here: https://youtu.be/c64WG4iJuEo
 
 # Parts Needed
 
-🛒 OLED Display ▶ http://educ8s.tv/part/ST7920
+🛒 OLED Display ▶ http://educ8s.tv/part/OLED096
 
-🛒 Raspberry Pi Pico ▶ http://educ8s.tv/part/SmallBreadboard
+🛒 Raspberry Pi Pico ▶ http://educ8s.tv/part/RaspberryPiPico
 
 🛒 Wires ▶ http://educ8s.tv/part/Wires
 
