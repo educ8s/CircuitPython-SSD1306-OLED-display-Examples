@@ -4,6 +4,8 @@
  1. A simple "Hello World" script that displays a white frame and a "Hello World" text.
  2. A Pong Game where the CPU controls both paddles.
  3. A simple thermometer that gets the temperature from the embedded temperature sensor of the Raspberry Pi Pico board. 
+ 
+ #Video
 
 <p align="center">
   <img src="preview.jpg" alt="Running Sketch" width="640">
